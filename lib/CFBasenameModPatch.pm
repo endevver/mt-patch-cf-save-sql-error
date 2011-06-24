@@ -43,7 +43,7 @@ sub save_patched {
 
     if ($id) {
         if ($field->{changed_cols}{basename}) {
-            my $orig_obj = __PACKAGE__->load($id);
+            my $orig_obj = CustomFields::Field->load($id);
             $orig_basename = $orig_obj->basename;
         }
     }

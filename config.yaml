@@ -1,5 +1,5 @@
 name:         Customfield basename modification SQL error bug patch
-version:      1.0.0
+version:      1.0.1
 description:  'This plugin patches a bug in the MT Commercial pack in which saving a custom field with an altered basename leads to a SQL error caught at line 614 of lib/MT/ObjectDriver/Driver/DBI.pm. This often occurs when Theme Manager is applying a new theme with custom fields.<br /><br />This plugin ONLY has an effect on the system if <code><strong>CFBasenameModPatchEnabled</strong></code> is set to the <strong>current MT version</strong> in <strong>mt-config.cgi</strong>.'
 key:          CFBasenameModPatch
 id:           CFBasenameModPatch
